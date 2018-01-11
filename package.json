@@ -1,9 +1,11 @@
 {
   "name": "webpack-experiment",
   "devDependencies": {
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   }
 }
