@@ -39,8 +39,15 @@ module.exports = {
           use: 'css-loader',
         }),
       },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          'file-loader',
+        ],
+      },
     ],
   },
+  // Enable importing JS files without specifying their extensions
   resolve: {
     extensions: ['.js', '.jsx'],
   },
