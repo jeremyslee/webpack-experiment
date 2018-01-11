@@ -1,0 +1,9 @@
+{
+  "name": "webpack-experiment",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}
